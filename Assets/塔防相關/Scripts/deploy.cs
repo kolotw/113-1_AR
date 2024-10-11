@@ -1,20 +1,20 @@
-using System.Collections;
+Ôªøusing System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class deploy : MonoBehaviour
 {
-    GameObject[] Ø••x = new GameObject[2];
-    GameObject ßd®F;
+    GameObject[] Á†≤Âè∞ = new GameObject[2];
+    GameObject Âê≥Ê≤ô;
     Vector3 newPos;
-    GameObject §w≥°∏p;
+    GameObject Â∑≤ÈÉ®ÁΩ≤;
 
     // Start is called before the first frame update
     void Start()
     {
-        Ø••x[0] = GameObject.Find("GAMEMASTER").GetComponent<gameMaster>().¶u§Ë[0];
-        Ø••x[1] = GameObject.Find("GAMEMASTER").GetComponent<gameMaster>().¶u§Ë[1];
-        ßd®F = GameObject.Find("GAMEMASTER").GetComponent<gameMaster>().ßd®F;
+        Á†≤Âè∞[0] = GameObject.Find("GAMEMASTER").GetComponent<gameMaster>().ÂÆàÊñπ[0];
+        Á†≤Âè∞[1] = GameObject.Find("GAMEMASTER").GetComponent<gameMaster>().ÂÆàÊñπ[1];
+        Âê≥Ê≤ô = GameObject.Find("GAMEMASTER").GetComponent<gameMaster>().Âê≥Ê≤ô;
     }
 
     // Update is called once per frame
@@ -28,40 +28,40 @@ public class deploy : MonoBehaviour
             Mathf.Infinity
             ))
         {
-            if (hit.transform.tag == "•i≥°∏p")
+            if (hit.transform.tag == "ÂèØÈÉ®ÁΩ≤")
             {
                 if (Input.GetKeyUp(KeyCode.Mouse0))
                 {
-                    if (GameObject.Find("GAMEMASTER").GetComponent<gameMaster>().Ø•A§W≠≠ > 0)
-                    {//≥°∏p Ø••xA ∑∆π´•™ 
+                    if (GameObject.Find("GAMEMASTER").GetComponent<gameMaster>().Á†≤A‰∏äÈôê > 0)
+                    {//ÈÉ®ÁΩ≤ Á†≤Âè∞A ÊªëÈº†Â∑¶ 
                         newPos = hit.transform.position;
                         newPos.y += 0.15f;
 
-                        if (hit.transform.name == "ßd®F±œ≈@•Õ¶®¬I(•i≥°∏p)")
+                        if (hit.transform.name == "Âê≥Ê≤ôÊïëË≠∑ÁîüÊàêÈªû(ÂèØÈÉ®ÁΩ≤)")
                         {
-                            §w≥°∏p = Instantiate(ßd®F, newPos, Quaternion.identity);
-                            §w≥°∏p.tag = "®æ¶u§Ë";
+                            Â∑≤ÈÉ®ÁΩ≤ = Instantiate(Âê≥Ê≤ô, newPos, Quaternion.identity);
+                            Â∑≤ÈÉ®ÁΩ≤.tag = "Èò≤ÂÆàÊñπ";
                         }
                         else 
                         {
-                            §w≥°∏p = Instantiate(Ø••x[0], newPos, Quaternion.identity);
-                            §w≥°∏p.tag = "®æ¶u§Ë";
+                            Â∑≤ÈÉ®ÁΩ≤ = Instantiate(Á†≤Âè∞[0], newPos, Quaternion.identity);
+                            Â∑≤ÈÉ®ÁΩ≤.tag = "Èò≤ÂÆàÊñπ";
                         }
 
                         
-                        GameObject.Find("GAMEMASTER").GetComponent<gameMaster>().Ø•A§W≠≠--;
+                        GameObject.Find("GAMEMASTER").GetComponent<gameMaster>().Á†≤A‰∏äÈôê--;
                     }                    
                 }
                 if (Input.GetKeyUp(KeyCode.Mouse1))
                 {
-                    if (GameObject.Find("GAMEMASTER").GetComponent<gameMaster>().Ø•B§W≠≠ > 0)
+                    if (GameObject.Find("GAMEMASTER").GetComponent<gameMaster>().Á†≤B‰∏äÈôê > 0)
                     {
-                        //≥°∏p Ø••xB ∑∆π´•k
+                        //ÈÉ®ÁΩ≤ Á†≤Âè∞B ÊªëÈº†Âè≥
                         newPos = hit.transform.position;
                         newPos.y += 0.15f;
-                        §w≥°∏p = Instantiate(Ø••x[1], newPos, Quaternion.identity);
-                        §w≥°∏p.tag = "®æ¶u§Ë";
-                        GameObject.Find("GAMEMASTER").GetComponent<gameMaster>().Ø•B§W≠≠--;
+                        Â∑≤ÈÉ®ÁΩ≤ = Instantiate(Á†≤Âè∞[1], newPos, Quaternion.identity);
+                        Â∑≤ÈÉ®ÁΩ≤.tag = "Èò≤ÂÆàÊñπ";
+                        GameObject.Find("GAMEMASTER").GetComponent<gameMaster>().Á†≤B‰∏äÈôê--;
                     }                    
                 }
             }
