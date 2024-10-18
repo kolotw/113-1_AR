@@ -219,15 +219,15 @@ public class GoalManager : MonoBehaviour
     {
         if (m_CurrentGoal.CurrentGoal == OnboardingGoals.FindSurfaces)
         {
-            m_CurrentCoroutine = StartCoroutine(WaitUntilNextCard(5f));
+            m_CurrentCoroutine = StartCoroutine(WaitUntilNextCard(3f));
         }
         else if (m_CurrentGoal.CurrentGoal == OnboardingGoals.Hints)
         {
-            m_CurrentCoroutine = StartCoroutine(WaitUntilNextCard(6f));
+            m_CurrentCoroutine = StartCoroutine(WaitUntilNextCard(3f));
         }
         else if (m_CurrentGoal.CurrentGoal == OnboardingGoals.Scale)
         {
-            m_CurrentCoroutine = StartCoroutine(WaitUntilNextCard(8f));
+            m_CurrentCoroutine = StartCoroutine(WaitUntilNextCard(3f));
         }
         else if (m_CurrentGoal.CurrentGoal == OnboardingGoals.TapSurface)
         {

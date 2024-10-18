@@ -142,11 +142,12 @@ public class 整合角色行動 : MonoBehaviour
 
     private void 防守方行動()
     {
-        if (GameObject.Find("GAMEMASTER").GetComponent<gameMaster>().isWin)
-        {
-            anim.SetTrigger("WIN");
-            return;
-        }
+        //if (GameObject.Find("GAMEMASTER").GetComponent<gameMaster>().isWin)
+        //{
+        //    anim.SetTrigger("WIN");
+        //    return;
+        //}
+
         找敵人(enemyTag);
         //if (敵人.Length == 0)
         //{

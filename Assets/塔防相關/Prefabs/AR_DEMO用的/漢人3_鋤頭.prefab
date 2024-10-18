@@ -392,11 +392,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 822825682dc24e4459d9192389c5e032,
+        type: 3}
+      propertyPath: m_TagString
+      value: "\u653B\u64CA\u65B9"
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 822825682dc24e4459d9192389c5e032,
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: a4c294eb1569a804ba440b712d70e4de, type: 2}
+      objectReference: {fileID: 9100000, guid: 6b29c518818fb664a9cc61cb4e848994, type: 2}
     - target: {fileID: 5866666021909216657, guid: 822825682dc24e4459d9192389c5e032,
         type: 3}
       propertyPath: m_ApplyRootMotion
@@ -749,7 +754,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6634848477981804406}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a15c41819dcddf944840819ddd6c73e3, type: 3}
   m_Name: 
@@ -769,7 +774,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6634848477981804406}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a184b12680a943459bfe11cb6fb28a8, type: 3}
   m_Name: 

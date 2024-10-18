@@ -2537,7 +2537,7 @@ GameObject:
   - component: {fileID: 4121515901287911244}
   m_Layer: 6
   m_Name: "\u6F22\u4EBA_\u8FB2\u592B_\u92E4\u982D"
-  m_TagString: "\u6F22\u4EBA"
+  m_TagString: "\u653B\u64CA\u65B9"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2573,7 +2573,7 @@ Animator:
   m_GameObject: {fileID: 7778963061297822010}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 405b69907ba20df4b968faf6f2be79ea, type: 3}
-  m_Controller: {fileID: 9100000, guid: a4c294eb1569a804ba440b712d70e4de, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6b29c518818fb664a9cc61cb4e848994, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2914,7 +2914,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1983442369955053504
 RectTransform:
   m_ObjectHideFlags: 0
