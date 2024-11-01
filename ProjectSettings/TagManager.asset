@@ -17,6 +17,7 @@ TagManager:
   - "\u653B\u64CA\u65B9\u6B66\u5668"
   - "\u9632\u5B88\u65B9\u6B66\u5668"
   - "\u4E2D\u7E7C\u9EDE"
+  - hasInfo
   layers:
   - Default
   - TransparentFX
